@@ -9,5 +9,5 @@ SCRIPT PROCESS & LIBRARIES USED
 5. Update Tableau & Publish (pyautogui)
      * Open Tableau
      * Refresh Data Connection
-    * Save/Publish to Tableau Public
-    * Close web browser and Tableau
+     * Save/Publish to Tableau Public
+     * Close web browser and Tableau
