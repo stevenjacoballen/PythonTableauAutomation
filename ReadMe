@@ -1,0 +1,13 @@
+This project leverages Python scripting to automate the process of updating and publishing a Tableau dashboard with data scraped from a web page every hour.
+
+SCRIPT PROCESS & LIBRARIES USED
+ 
+1. Hourly execution of script (crontab)
+2. Request DarkSky.net website (Requests)
+3. Scrape current temperature (Regex & Beautiful Soup)
+4. Write data to Excel File (Openpyxl))
+5. Update Tableau & Publish (pyautogui)
+     * Open Tableau
+     * Refresh Data Connection
+    * Save/Publish to Tableau Public
+    * Close web browser and Tableau
